@@ -1,0 +1,139 @@
+/* Fonts */
+
+section {font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: #fbfbfb;
+    color: #0f0f0f;
+}
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+
+
+h1 {font-size: 36px;
+    text-align: center;
+     }
+
+     h2 {font-size: 28px;
+     }
+
+     p {margin: 16px 0;
+     }
+
+img {max-width: 80%;
+    align-content: center;
+
+}
+header {display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+height: 90px;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+box-shadow: 0 3px 10px -5px #5f5f5f;}
+
+.logo {width: 120px;
+    margin-left: 100px;}
+
+ul#menu { display: flex;
+font-size: 20px;}
+
+
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+section { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+section#inicio {
+    justify-content: space-between;
+    align-items: self-end;
+}
+
+figure.presentacion-img {
+    margin-bottom: 20px;
+}
+figure.presentacion-img img{
+    border-radius: 50%;
+    width: 400px;
+}
+
+article.presentacion {
+    width: 100%;
+    text-align: center;
+ }
+
+a.btn {
+background-color: #af599e;
+color: #fbfbfb;
+padding: 12px 20px;
+border-radius: 50px;
+font-size: 20px;
+display: inline-block;
+}
+
+
+    
+
+    
+
+ div {background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    text-align: center;
+}
+    
+li { list-style: none;}
+
+#hablame {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    padding: 10%;
+    justify-content: space-around;
+
+}
+
+#footer {background-color: #af599e;
+    color: #fbfbfb;
+    text-align: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    align-items: center;  
+    
+}
